@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Challenge 4 Quiz </title>
+    <link rel="stylesheet" href="style.css"> 
+    <script defer src="script.js"></script>
+<body>
+    <div id="start_button"><button> Start </button></div>
+<div class="quiz_box">
+    <header>
+        <div class="timer">
+            <div class="timer_text">Time Left:  </div>
+            <div class="timer_sec">   75 </div>
+        </div>
+        <div class="score"> <button>View High Scores</button></div>
+    </header>
+
+    <section  id="question_container" class="hide">
+        <div id="que_text" >
+            <span> Question </span>
+        </div>
+        <div id="option_list">
+             <button class="btn"> answer 1 </button>
+             <button class="btn"> answer 2 </button>
+             <button class="btn"> answer 3</button>
+             <button class="btn"> answer 4  </button>
+
+    </section>
+
+    <footer class="hide">
+        <div class="que_answer">
+            <p class="que_answer"> Wrong!</p>
+        </div>
+    </footer>
+</div>
+
+<div id="results" class="hide">
+    <p class="done"> All Done! </p>
+    <p class="score"> Your final score is:</p>
+</div>
+<div  class="hide">
+<label for="initial "> Enter Initals: </label>
+<input type="text" id="initial"
+initial="Initials">
+<input type="submit">
+</div>
+</body>
+</html>
