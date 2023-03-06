@@ -1,0 +1,127 @@
+body {
+    background: white;
+}
+
+#start_button{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#start_button button {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 10px 30px;
+    color: green;
+    cursor: pointer;
+}
+.quiz_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#que_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#option_list .btn button {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+ background-color:darkcyan;
+ color: antiquewhite;
+ width: 250px;
+ height: 50px;
+ border-radius: 20px;
+ cursor: pointer;
+}
+ .btn button:hover {
+    color: lightcyan;
+    background-color: lightcyan;
+    border-color: lightcyan;
+    color: blue;
+}
+
+.timer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 480px;
+    left: 500px;
+    white-space: nowrap;
+}
+
+.score button{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    font-size: 15px;
+    background-color: white;
+    border: none; 
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 450px;
+    right: 500px;
+    white-space: nowrap;
+}
+
+.que_answer {
+display: flex;
+font-size: 25px;
+color: darkgray;
+text-decoration: underline darkgray;
+position: absolute;
+top: 200px;
+right: 300px;
+}
+
+.results {
+display: flex;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+bottom: 600px;
+left: 500px;
+}
+.done {
+font-size: 30px;
+font-weight: bolder;
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+}
+#initial_score {
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+bottom: 500px;
+left: 500px;
+}
+
+.hide {
+    display: none;
+}
