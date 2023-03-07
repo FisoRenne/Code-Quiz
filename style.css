@@ -44,7 +44,7 @@ justify-content: space-between;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn {
+.answer_button {
  background-color:darkcyan;
  color: antiquewhite;
  width: 250px;
@@ -52,7 +52,7 @@ font-family: Arial, Helvetica, sans-serif;
  border-radius: 20px;
  cursor: pointer;
 }
- .btn button:hover {
+ .answer_button button:hover {
     color: lightcyan;
     background-color: lightcyan;
     border-color: lightcyan;
